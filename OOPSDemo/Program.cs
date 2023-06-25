@@ -14,6 +14,7 @@ namespace OOPSDemo
             Console.WriteLine("1 : Class And Object");
             Console.WriteLine("2 : Inheritance Concept");
             Console.WriteLine("3 : Method OverLoading Concepts");
+            Console.WriteLine("4 : Method Overriding Concepts");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -34,6 +35,10 @@ namespace OOPSDemo
                     method.MethodOne(50,"Concepts");
                     method.MethodOne("Concepts" ,50);
                     method.MethodOne("MethodOverloading","Concepts");
+                    break;
+                case 4:
+                    Dog d = new Dog();
+                    d.Eating();
                     break;
             }
             Console.ReadLine();
