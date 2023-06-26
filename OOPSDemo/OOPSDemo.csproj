@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="Animal.cs" />
     <Compile Include="ClassObject.cs" />
     <Compile Include="FirstName.cs" />
     <Compile Include="MethodOverLoading.cs" />
